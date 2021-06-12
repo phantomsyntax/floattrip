@@ -5,8 +5,9 @@ using UnityEditor.Build.Reporting;
 using UnityEngine;
 
 public class MakeBuild : MonoBehaviour {
-    private static readonly string[] SceneArray =
-        {"Assets/PhantomSyntax/Scenes/03_TheConstruct/03_TheConstruct.unity"};
+    private static readonly string[] SceneArray = {
+        "Assets/PhantomSyntax/Scenes/03_TheConstruct/03_TheConstruct.unity",
+        "Assets/PhantomSyntax/Scenes/04_ButtercupCreek/04_ButtercupCreek.unity"};
     
     [MenuItem("Build/Standalone Linux x64")]
     static void Linux() {
